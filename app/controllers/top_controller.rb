@@ -1,2 +1,7 @@
 class TopController < ApplicationController
-end
+  
+  def index
+  
+  end
+  
+end  
