@@ -1,3 +1,4 @@
 class UsersTopic < ApplicationRecord
-  belongs_to :cohesion, polymorphic: true
+  belongs_to :user
+  belongs_to :topic
 end

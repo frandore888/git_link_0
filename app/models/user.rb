@@ -8,6 +8,7 @@ class User < ApplicationRecord
   has_many :infos
   has_many :pics
   has_many :comments
-  has_one :users_topics, as: :cohesion
+  has_many :users_topics
+  has_many :topics, through: :users_topics
   
 end
